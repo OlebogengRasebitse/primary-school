@@ -1,10 +1,8 @@
 import Slider from "react-slick";
 
 const images = [
-  { src: "primary-school/src/assets/Khuli Chana at Tsitsing Primary.jpg", alt: "Team Celebration" },
-  { src: "/src/assets/Soccer team.jpeg" , alt: "Best Midfielder - Tselapedi" },
-
-  // { src: "/images/tsitsing3.jpg", alt: "Bronze Medal Moment" },
+  { src: "/src/assets/Tsitsing primary.jpg", alt: "Tsitsing Primary Schol" },
+  { src: "/src/assets/Khuli Chana.jpg" , alt: "Khuli Chana at Tsitsing Primary" },
 ];
 
 export default function ImageCarousel() {
@@ -25,7 +23,7 @@ export default function ImageCarousel() {
             <img
               src={image.src}
               alt={image.alt}
-              className="w-full h-[300px] object-cover rounded-xl shadow-lg"
+              className="w-full h-[500px] object-cover rounded-xl shadow-lg"
             />
           </div>
         ))}
