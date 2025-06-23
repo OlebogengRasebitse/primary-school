@@ -18,7 +18,7 @@ function About() {
       <p><span className="font-bold">Growth</span>  –  We support continuous learning, curiosity, and personal development.</p>
 
 <hr className="my-8 border-t-2 border-blue-900" />
- <h1 className="text-3xl font-bold mb-4">OUR STAFF TEAM</h1> 
+ <h1 className="text-3xl font-bold mb-4">OUR STAFF</h1> 
       <br />
        <TeacherGallery />
     </>
