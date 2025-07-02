@@ -1,12 +1,104 @@
-# React + Vite
+# 📚 Tsitsing Primary School Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web application built with **React** and **Vite**. This project supports the day-to-day communication and operations of Tsitsing primary school — including class timetables, a gallery, announcements, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React** – For building user interfaces  
+- ⚡ **Vite** – Fast build tool with Hot Module Replacement  
+- 🎨 **Tailwind CSS** – Utility-first CSS (if used)  
+- ✅ **ESLint** – For code quality and consistency
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/OlebogengRasebitse/primary-school.git
+cd primarySchool
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## ✨ Features
+
+* 📅 Class, exam, and extra-mural timetables
+* 🖼️ Image gallery with school events and activities
+* 📬 Contact and applicataion form
+* 📢 Announcements board
+
+---
+
+## 📁 Project Structure
+
+```bash
+primary-school/
+├── public/              # Static assets and images
+├── src/                 # Source files
+│   ├── assets/          
+│   ├── components/      
+│   ├── pages/           
+│   ├── App.jsx          
+│   └── main.jsx         
+├── .eslintrc.cjs        
+├── package.json         
+└── vite.config.js       
+```
+
+---
+
+## 📸 Image Credits
+
+Some images used in this project are sourced from high-quality free stock libraries:
+
+* [Unsplash](https://unsplash.com)
+* [Freepik](https://www.freepik.com)
+* [Dupe] (https://dupephotos.com/)
+
+All rights belong to the original photographers and creators. Images are used under free commercial licenses with attribution where required.
+
+---
+
+## 🛠️ Future Improvements
+
+* [ ] Improve mobile responsiveness
+* [ ] Add school calendar sync
+* [ ] Add real staff/teacher photos and names
+* [ ] Add real school information
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request.
+For major changes, open an issue to start a discussion.
+
+---
+
+<!-- ## 📜 License
+
+This project is licensed under the MIT License. -->
+
+---
+
+> Built with ❤️ to help schools simplify communication and engage their communities online.
+
+```
