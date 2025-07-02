@@ -7,7 +7,7 @@ function Navbar() {
         <div className="flex items-center space-x-3">
           <img
             className="h-10 w-10 object-contain"
-            src="https://z-p3-scontent.fjnb11-1.fna.fbcdn.net/v/t39.30808-6/480738688_983007910593974_8569391548694603861_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=cUGwS3ae5ToQ7kNvwEDOAGF&_nc_oc=Adn26M9l3VsgeBeXgnXZrRjbqs2YzZ6EqbwqQJ4ToRB1sYmmmooSJSrJCCDeiBgJpiM&_nc_zt=23&_nc_ht=z-p3-scontent.fjnb11-1.fna&_nc_gid=CDBOUrpCEIByjiai20gH8Q&oh=00_AfOgpX04lj9g8xun1FMM0ogznW6kAnfvZvFnehQ794lDqw&oe=68472413"
+            src="https://z-p3-scontent.fjnb12-1.fna.fbcdn.net/v/t39.30808-6/482057494_3673300822961008_3809006349011660791_n.jpg?stp=dst-jpg_tt6&cstp=mx1822x2048&ctp=s565x565&_nc_cat=103&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=Upbq-8HUdI0Q7kNvwFN4mQn&_nc_oc=AdkeQ1-gxKhqruWcghlSzl40cfprl6DMp2UMyIC2-2LRgpMteze5MtRJXG2QA_h8BYU&_nc_zt=23&_nc_ht=z-p3-scontent.fjnb12-1.fna&_nc_gid=Jg5WRhsGU7jM33x448jyyw&oh=00_AfNU_Wjm2yQVyAxmd9cD_irHK07CIJItG6nNG1ilAfSnng&oe=686A0333"
             alt="Logo"
           />
           <span className="font-bold text-gray-800 text-xl">Tsitsing Primary School</span>
