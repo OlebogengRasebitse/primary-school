@@ -1,7 +1,7 @@
 function Events() {
     return (
        <>
-       <h1 className="text-3xl font-bold mb-4">SCHOOL CALENDER</h1>
+       <h1 className="text-3xl font-bold mb-4 text-blue-900">SCHOOL CALENDER</h1>
        <section className="my-12">
   <div className="w-full aspect-video">
     <iframe 
@@ -13,7 +13,7 @@ function Events() {
   </div>
   <hr className="my-8 border-t-2 border-blue-900" />
   <section className="my-12">
- <h1 className="text-3xl font-bold mb-4">UP COMING EVENTS</h1> 
+ <h1 className="text-3xl font-bold mb-4 text-blue-900">UP COMING EVENTS</h1> 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
     {[
       {
@@ -55,7 +55,7 @@ function Events() {
 
 <section className="my-12">
  <hr className="my-8 border-t-2 border-blue-900" />
- <h1 className="text-3xl font-bold mb-4">PAST EVENTS</h1> 
+ <h1 className="text-3xl font-bold mb-4 text-blue-900">PAST EVENTS</h1> 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
     {[
       {

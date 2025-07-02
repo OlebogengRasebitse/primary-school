@@ -3,7 +3,7 @@ import ImageCarousel from "../components/ImageCarousel";
 function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold mb-4">WHATS HAPPENING AT TSITSING PRIMARY</h1>
+      <h1 className="text-3xl font-bold mb-4 text-blue-900">WHATS HAPPENING AT TSITSING PRIMARY</h1>
       <br />
 
       <h2 className="text-xl font-semibold mt-4 mb-2">Mid-Year Exams</h2>
@@ -26,9 +26,7 @@ Our annual Winter Camp for Grade 7 learners is coming up soon! This exciting 4-d
 Don’t miss out on the fun and learning! Permission letters will be sent home this week.</p>
 
 <hr className="my-8 border-t-2 border-blue-900" />
- <h1 className="text-3xl font-bold mb-4">WHATS HAPPENING AT TSITSING PRIMARY</h1>
-      <br />
-  <h1 className="text-3xl font-bold mb-4">LEARNER SPOTLIGHT</h1>
+  <h1 className="text-3xl font-bold mb-4 text-blue-900">LEARNER SPOTLIGHT</h1>
 
   <section className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
   <img 
@@ -52,7 +50,7 @@ This victory is not just a celebration of medals, but a reflection of hard work,
 </section>
 <hr className="my-8 border-t-2 border-blue-900" />
   <div className="p-4">
-       <h1 className="text-3xl font-bold mb-4">TSITSING TALENT HIGHLIGHT PRIMARY</h1>
+       <h1 className="text-3xl font-bold mb-4 text-blue-900">TSITSING PRIMARY TALENT HIGHLIGHT</h1>
       <br />
       <ImageCarousel />
     </div>

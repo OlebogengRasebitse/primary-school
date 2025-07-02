@@ -2,7 +2,7 @@ function AdmissionsSection() {
     return ( 
         <>
         <hr className="my-8 border-t-2 border-blue-900" />
-         <h1 className="text-3xl font-bold mb-4">ENROLMENT</h1>
+         <h1 className="text-3xl font-bold mb-4 text-blue-900">ENROLMENT</h1>
         {/* max-w-xl */}
         <section className="mx-auto p-4 sm:p-6 bg-white rounded-xl shadow-md">
   <h2 className="text-xl font-bold text-blue-900 mb-4 text-center">Dear Parents / Guardians</h2>
