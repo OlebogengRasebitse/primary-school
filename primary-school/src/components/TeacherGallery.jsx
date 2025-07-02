@@ -46,7 +46,6 @@ const teachers = [
 function TeacherGallery() {
   return (
     <section className="py-10 px-4">
-      <h2 className="text-2xl font-bold text-center mb-6">Meet Our Teachers</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {teachers.map((teacher, index) => (
           <div key={index} className="bg-white rounded-xl shadow-md p-4 text-center">
