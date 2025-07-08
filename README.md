@@ -1,6 +1,6 @@
 # Tsitsing Primary School Web App
 
-A modern and responsive web application built with React and Vite. This project supports the day-to-day communication and operations of Tsitsing primary school — including class timetables, a gallery, announcements, and more.
+A modern and responsive web application built with React and Vite. This project supports the day-to-day communication and operations of Tsitsing primary school including class timetables, a gallery, announcements, and more.
 
 ---
 
