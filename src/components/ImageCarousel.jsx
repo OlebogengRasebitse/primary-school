@@ -1,8 +1,8 @@
 import Slider from "react-slick";
 
 const images = [
-  { src: "/src/assets/Tsitsing primary.jpg", alt: "Tsitsing Primary Schol" },
-  { src: "/src/assets/Khuli Chana.jpg" , alt: "Khuli Chana at Tsitsing Primary" },
+  { src: "./src/assets/Tsitsing primary.jpg", alt: "Tsitsing Primary Schol" },
+  { src: "./src/assets/Khuli Chana.jpg" , alt: "Khuli Chana at Tsitsing Primary" },
 ];
 
 export default function ImageCarousel() {
