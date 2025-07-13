@@ -4,8 +4,6 @@ function Home() {
   return (
     <>
       <h1 className="text-3xl font-bold mb-4 text-blue-900">WHATS HAPPENING AT TSITSING PRIMARY</h1>
-      <br />
-
       <h2 className="text-xl font-semibold mt-4 mb-2">Mid-Year Exams</h2>
 
           <p className="text-base leading-relaxed">
