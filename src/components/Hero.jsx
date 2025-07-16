@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import image from "../assets/Hero Image.png";
+import image from "../../public/image.png";
 
 const heroContent = {
   "/": {
