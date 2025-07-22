@@ -3,7 +3,7 @@ function Contact() {
        <>
         <section className="my-12 max-w-3xl mx-auto px-4">
            <img 
-          src="src/assets/Banner.png"
+          src="/Banner.png"
           alt="Contact Us Banner"
           className="w-full h-40 object-cover rounded-lg shadow-md"
         />
