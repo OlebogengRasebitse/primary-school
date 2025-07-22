@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/Logo.jpg"; // Adjust the path as necessary
 
 function Navbar() {
   return (
@@ -8,7 +7,7 @@ function Navbar() {
         <div className="flex items-center space-x-3">
           <img
             className="h-10 w-10 object-contain"
-            src="./src/assets/Logo.jpg"
+            src="/Logo.jpg"
             alt="Logo"
           />
           <span className="font-bold text-gray-800 text-xl">Tsitsing Primary School</span>
