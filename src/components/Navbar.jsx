@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
-
+import React, { useState } from "react";
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
@@ -13,11 +15,60 @@ function Navbar() {
           <span className="font-bold text-gray-800 text-xl">Tsitsing Primary School</span>
         </div>
 
-        {/* Navigation Links */}
-        <ul className="flex space-x-6 text-gray-700 font-semibold text-sm">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="text-gray-800 md:hidden focus:outline-none"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            {isOpen ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            )}
+          </svg>
+        </button>
+
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex space-x-6 text-gray-700 font-semibold text-sm">
+          {navLinks()}
+        </ul>
+      </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="md:hidden bg-white shadow-md px-4 pt-2 pb-4">
+          <ul className="flex flex-col space-y-4 text-gray-700 font-semibold text-sm">
+            {navLinks(() => setIsOpen(false))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+{/* Navigation Links (for mobile & desktop)*/ }
+const navLinks = (onClick = () => { }) => (
+  <>
+        {/* <ul className="flex space-x-6 text-gray-700 font-semibold text-sm"> */}
           <li>
             <NavLink
               to="/"
+                onClick={onClick}
               className={({ isActive }) =>
                 isActive ? "text-blue-600 font-bold" : "hover:underline"
               }
@@ -28,6 +79,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/about"
+                onClick={onClick}
               className={({ isActive }) =>
                 isActive ? "text-blue-600 font-bold" : "hover:underline"
               }
@@ -38,6 +90,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/events"
+                onClick={onClick}
               className={({ isActive }) =>
                 isActive ? "text-blue-600 font-bold" : "hover:underline"
               }
@@ -48,6 +101,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/resources"
+                onClick={onClick}
               className={({ isActive }) =>
                 isActive ? "text-blue-600 font-bold" : "hover:underline"
               }
@@ -58,6 +112,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/contact"
+                onClick={onClick}
               className={({ isActive }) =>
                 isActive ? "text-blue-600 font-bold" : "hover:underline"
               }
@@ -65,11 +120,12 @@ function Navbar() {
               Contact
             </NavLink>
           </li>
-        </ul>
-      </div>
-    </div>
-  );
-}
+        {/* </ul> */}
+      {/* </div>
+    </div> */}
+    </>
+);
+{/* } */ }
 
 export default Navbar;
 
