@@ -4,7 +4,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 py-4">
+    <div className="fixed top-4 left-0 w-full h-16 bg-white z-50 shadow">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center space-x-3">
           <img
@@ -119,13 +119,9 @@ const navLinks = (onClick = () => { }) => (
             >
               Contact
             </NavLink>
-          </li>
-        {/* </ul> */}
-      {/* </div>
-    </div> */}
+        </li>
     </>
 );
-{/* } */ }
 
 export default Navbar;
 
