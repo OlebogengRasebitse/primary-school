@@ -4,11 +4,11 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed top-4 left-0 w-full h-16 bg-white z-50 shadow">
+    <div className="fixed top-0 left-0 w-full h-16 bg-white z-50 shadow">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center space-x-3">
           <img
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain mt-3"
             src="/Logo.jpg"
             alt="Logo"
           />
